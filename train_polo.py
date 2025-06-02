@@ -18,7 +18,7 @@ if __name__ == "__main__":
         batch=16,# aynı anda işlenen görüntü sayısı
         device=0,# 👈 bu satırı ekle! 0 = GPU (ilk kart)
         project="runs", # eğitim çıktıları nereye kaydedilecek
-        name="helmet-detection-version2",# sonuç klasörü ismi
+        name="helmet-detection",# sonuç klasörü ismi
         exist_ok=True,# klasör varsa üzerine yaz
         cos_lr=True # öğrenme oranını dalgalı hale getir, daha dengeli öğrenme sağlar
     )

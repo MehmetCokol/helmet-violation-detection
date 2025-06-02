@@ -4,7 +4,7 @@ from ultralytics import YOLO
 import os
 
 # Model yükleniyor
-model = YOLO('runs/helmet-detection-version2/weights/best.pt')  # model yolu
+model = YOLO('runs/helmet-detection/weights/best.pt')  # model yolu
 
 # Video dosyasını aç
 video_path = 'videos/010.mp4'  # giriş videosu

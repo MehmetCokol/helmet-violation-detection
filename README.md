@@ -69,7 +69,7 @@ Due to licensing restrictions, **the dataset and extracted frames are not includ
   8: P0NoHelmet
   ```
 
-> 📦 **Dataset can be requested from the official challenge page:**  
+> 📦 **Dataset can be requested from the official challenge page or from the dataset contributors at IIT Kanpur:**  
 > [https://www.aicitychallenge.org/2024-challenge-tracks/](https://www.aicitychallenge.org/2024-challenge-tracks/)
 
 ---
@@ -121,6 +121,10 @@ Here are some sample outputs from the trained YOLOv8 model:
   <img src="results/049_frame_0120.jpg" alt="Helmet detection example 2" width="500"/>
 </p>
 
+<p align="center">
+  <img src="results/demo.gif" alt="Helmet detection example 3" width="500"/>
+</p>
+
 ---
 
 ## 📈 Outputs
@@ -141,9 +145,9 @@ Evaluation files are stored under the `report/` folder:
 
 ## 📊 Evaluation Summary
 
-- mAP@50: ~0.80  
-- Precision: ~0.75  
-- Recall: ~0.70  
+- mAP@50: 0.934  
+- Precision: 0.93
+- Recall: 0.893
 
 The model was trained using YOLOv8 on a cleaned dataset of helmet usage in real traffic videos.  
 It successfully detects both motorbike riders and their helmet status with high confidence.
@@ -163,7 +167,7 @@ Interested users may request access through the official competition website.
 
 ## 🧑‍💻 Author
 
-- **Mehmet Çokol**  
+- **Mehmet Çokol & Kağan Kılıç**  
   Eskişehir Teknik Üniversitesi  
   Computer Vision Challenge Track 5 – *Helmet Rule Violation Detection*
 
